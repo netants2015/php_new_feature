@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+
 //当计数不可数的对象时，PHP 7.3添加了警告。 is_countable函数可以帮助防止此警告。
 // print_r(is_countable([1, 2, 3])); // bool(true)
 
